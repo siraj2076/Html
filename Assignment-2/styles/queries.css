@@ -1,0 +1,250 @@
+@media (max-width: 1225px) {
+  /* SERVICES */
+  .section-heading {
+    position: relative;
+  }
+
+  .service-cards {
+    margin-top: 2rem;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .card-middle-container {
+    order: 2;
+    flex-direction: row;
+    flex-basis: 100%;
+  }
+
+  .pricing-cards {
+    align-items: stretch;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1050px) {
+  /* HEADER */
+  .header-main .social {
+    display: none;
+  }
+  .ask-questions-text {
+    font-size: 1.4rem;
+  }
+
+  .profile-img {
+    width: 4rem;
+  }
+
+  .nav-links {
+    justify-content: space-around;
+  }
+
+  /* TAGGING */
+  .tagging-example {
+    gap: 8rem;
+  }
+
+  /* MEMBERSHIP */
+}
+
+@media (max-width: 840px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .header-image-container {
+    background-image: url("../assets/banner-tablet.jpg");
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(232, 239, 229, 0.96);
+
+    transform: translateX(100%);
+    transition: all 0.6s ease-in-out;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+    z-index: 15;
+  }
+  .nav-links {
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4rem;
+  }
+
+  .show-nav .nav-bar {
+    transform: translatex(0);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .show-nav .menu-icon {
+    display: none;
+  }
+
+  .show-nav .close-icon {
+    display: block;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .section-heading {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    flex-basis: 40%;
+  }
+
+  .technology-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nn-img {
+    order: 0;
+  }
+
+  .technology-text {
+    width: 80%;
+    text-align: center;
+  }
+
+  .technology-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .technology-text p {
+    font-size: 1.2rem;
+  }
+
+  .hr-line {
+    margin: 4rem 0;
+  }
+
+  .technology-text h1:after {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .header-image-container {
+    background-image: url("../assets/banner-phone.jpg");
+  }
+
+  .header-top {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+
+  .social-icon-link:link,
+  .social-icon-link:visited {
+    font-size: 1.6rem;
+  }
+
+  .header-main {
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .logo {
+    flex-basis: 50%;
+    flex-shrink: 0;
+  }
+
+  .section-heading {
+    width: 50%;
+  }
+
+  .ask-questions {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 0.4rem;
+    padding: 0.3rem;
+  }
+
+  .profile-img {
+    width: 40%;
+  }
+
+  .ask-questions::after{
+    display: none;
+  }
+
+  .ask-questions-text {
+    background-color: #74ab5c;
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+  }
+
+  footer {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .item-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tags {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-front {
+    order: -1;
+  }
+}
+
+@media (max-width: 320px) {
+  /* .card{
+    width: 15rem;
+  } */
+
+  .pricing-card {
+    min-width: 25rem;
+  }
+}

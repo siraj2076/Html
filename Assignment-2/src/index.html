@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <p>Follow</p>
+        <ul class="social">
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-pinterest"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link">
+              <ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <p class="signin">
+          <a href="#">SIGN IN/REGISTER</a>
+          <span class="line-vertical"></span>
+          <a href="#">WARRANTY</a>
+        </p>
+      </div>
+      <div class="header-main">
+        <a href="#" class="logo">
+          <img src="../assets/logo.jpg" alt="logo" class="logo-img" />
+        </a>
+
+        <span>
+          <a class="ask-questions" href="#">
+            <img
+              class="profile-img"
+              src="../assets/profile-1.jpg"
+              alt="image of a woman"
+            />
+            <span class="ask-questions-text">
+              <p>HAVE QUESTIONS?</p>
+              <p>ASK APRIL</p>
+            </span>
+          </a>
+        </span>
+
+        <ul class="social">
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-pinterest"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-icon-link">
+              <ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <button class="btn-mobile-nav" onclick="showNav()">
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-links">
+          <li class="nav-links-option"><a href="#">LOCATIONS</a></li>
+          <li class="nav-links-option"><a href="#">AVAILABLE HOMES</a></li>
+          <li class="nav-links-option"><a href="#">FLOORPLANS</a></li>
+          <li class="nav-links-option"><a href="#">VIRTUAL TOURS</a></li>
+          <li class="nav-links-option"><a href="#">GALLERY</a></li>
+          <li class="nav-links-option"><a href="#">TESTIMONIALS</a></li>
+          <li class="nav-links-option">
+            <a href="#">ABOUT</a>
+          </li>
+          <li class="nav-links-option"><a href="#">CONTACT</a></li>
+          <li class="nav-links-option"><a href="#">PAYMENT PORTAL</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-image-container"></div>
+    </header>
+
+    <main>
+      <section class="section-technology">
+        <div class="technology-content container">
+          <img
+            src="../assets/neural-net.png"
+            alt="illustration of a neural network"
+            class="technology-img nn-img"
+          />
+          <div class="technology-text">
+            <h1>ARTIFICIAL NEURAL NETWORKS</h1>
+            <p>
+              Neural networks based solutions including Densely Connected Neural
+              Networks(DNNs), Convolutional Neural Networks(CNNs), and Reccurent
+              Neural Networks(RNNs) to power advanced intelligence.
+            </p>
+          </div>
+        </div>
+        <span class="hr-line"></span>
+        <div class="technology-content container">
+          <img
+            src="../assets/recommendar.png"
+            alt="illustration of  a recommendar system"
+            class="technology-img"
+          />
+          <div class="technology-text">
+            <h1>RECOMMENDER SYSTEMS</h1>
+            <p>
+              Enable personalized recommendations for your customers by
+              monitoring how they use your products both implicitly and
+              explicitly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tagging">
+        <div class="tagging-container container">
+          <h3 class="tagging-heading">AI-Assisted Tagging</h3>
+          <p class="tagging-info">
+            Using Deep Learning Techniques, we train models to identify
+            products, categorize them, and generate highlt-structured tags to
+            populate your catalog. This makes it easier for you or your
+            customers to filter and find items, keep product information easily
+            accessible, and quickly distribute product feeds through different
+            channels.
+          </p>
+          <div class="tagging-example">
+            <div class="item-container">
+              <ul class="tags">
+                <li class="tag">Dress</li>
+                <li class="tag">A-Line</li>
+                <li class="tag">Wrap</li>
+                <li class="tag">Dark Green</li>
+                <li class="tag">V-neck</li>
+              </ul>
+              <div class="img-container flex-front">
+                <img
+                  src="../assets/dress.png"
+                  alt="image of dress"
+                  class="tag-img"
+                />
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="img-container">
+                <img
+                  src="../assets/screw.png"
+                  alt="image of a screw"
+                  class="tag-img"
+                />
+              </div>
+              <ul class="tags">
+                <li class="tag">Screw</li>
+                <li class="tag">Twinfast</li>
+                <li class="tag">Zinc Plated</li>
+                <li class="tag">Flat head</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-services">
+        <div class="service-container container">
+          <div class="section-heading">
+            <h2>Our Services</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="service-cards">
+            <div class="card card-one">
+              <ion-icon name="book-outline" class="icon"></ion-icon>
+              <div class="card-content">
+                <h3>25&plus; Multiple Languages.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  exercitationem beatae eveniet a voluptates tenetur suscipit
+                  quo nemo provident.
+                </p>
+                <a href="#">Read More.</a>
+              </div>
+            </div>
+            <div class="card-middle-container">
+              <div class="card card-two">
+                <!-- <ion-icon name="copy-outline" class="icon"></ion-icon> -->
+                <ion-icon name="book-outline" class="icon"></ion-icon>
+                <div class="card-content">
+                  <h3>32&plus; Categories Available.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis exercitationem beatae eveniet a voluptates tenetur
+                    suscipit quo nemo provident.
+                  </p>
+                  <a href="#">Read More.</a>
+                </div>
+              </div>
+              <div class="card card-three">
+                <div class="two-icons">
+                  <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                  <span>&plus;</span>
+                  <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                </div>
+                <div class="card-content">
+                  <h3>On Social Networks.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis exercitationem beatae eveniet a voluptates tenetur
+                    suscipit quo nemo provident.
+                  </p>
+                  <a href="#">Read More.</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-four">
+              <ion-icon name="person-outline" class="icon"></ion-icon>
+              <div class="card-content">
+                <h3>Full Customer Satisfaction.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  exercitationem beatae eveniet a voluptates tenetur suscipit
+                  quo nemo provident.
+                </p>
+                <a href="#">Read More.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-membership">
+        <div class="membership-container container">
+          <h2>Membership</h2>
+
+          <div class="pricing-cards">
+            <div class="pricing-card pricing-one">
+              <div class="pricing-title">
+                <h4>Day Pass</h4>
+                <p>Give it a Try</p>
+              </div>
+              <div class="pricing-details">
+                <p class="price">
+                  <span class="number">&dollar;19</span> Per Day
+                </p>
+                <ul class="pricing-list">
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    Day Access Only
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    Unlimited Superfast Wi-Fi
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    <span class="cross-text">No lockers</span>
+                  </li>
+                </ul>
+                <button class="btn">BOOK NOW</button>
+              </div>
+            </div>
+
+            <div class="pricing-card pricing-two">
+              <div class="pricing-title">
+                <h4>Shared Desk</h4>
+                <p>Economical but Flexible</p>
+              </div>
+              <div class="pricing-details">
+                <p class="price">
+                  <span class="number">&dollar;99</span> Monthly
+                </p>
+                <ul class="pricing-list">
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    8am to 8pm Access
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    100 hours of Superfast Wi-Fi
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    Lockers Access
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    <span class="cross-text">No Printers</span>
+                  </li>
+                </ul>
+                <button class="btn">BOOK NOW</button>
+              </div>
+            </div>
+
+            <div class="pricing-card pricing-three">
+              <div class="pricing-title">
+                <h4>Flexible Desk</h4>
+                <p>Any Desk, Any Chair</p>
+              </div>
+              <div class="pricing-details">
+                <p class="price">
+                  <span class="number">&dollar;149</span> Monthly
+                </p>
+                <ul class="pricing-list">
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    200 hours of Wifi per Month
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    Lockers Access
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    50 pages Printers
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    5hrs Skype Booth
+                  </li>
+                  <li>
+                    <ion-icon
+                      name="checkmark-outline"
+                      class="check-icon"
+                    ></ion-icon>
+                    Mailing Address
+                  </li>
+                </ul>
+                <button class="btn">BOOK NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="copyright">
+        <p>Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.</p>
+        <p><a href="#">Terms of Use</a> &sol; <a href="#">Privacy Policy</a></p>
+      </div>
+      <div class="small-nav">
+        <a href="#">About</a>
+        <span>&sol;</span>
+        <a href="#">Features</a>
+        <span>&sol;</span>
+        <a href="#">FAQs</a>
+        <span>&sol;</span>
+        <a href="#">Contact</a>
+      </div>
+    </footer>
+
+    <script>
+      function showNav() {
+        document.querySelector("header").classList.toggle("show-nav");
+      }
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
